@@ -4,7 +4,7 @@ async function main() {
     console.log(obj)
 
     const data= [];
-    for (let i=0; i<obj["symptoms"].length; ++i){
+    for (let i=0; i<obj["symptoms"].length; i++){
         data.push({
             value: i,
             text: obj["symptoms"][i]
