@@ -1,13 +1,16 @@
-
-// const fs = require('fs');
-// const path = require('path');
 async function main() {
-   const res = await fetch('https://drive.google.com/file/d/1Za-fgn2NScFY2EWY0dg-7R56EcwuycPk/view');
-    // obj= const filePath = path.resolve(__dirname, 'fake_data.json');
-    // const data = await fs.promises.readFile(filePath, 'utf8');
+   const res = await fetch('https://auroragrace501.github.io/370-project/fake_data.json');
     const obj = await res.json();
     console.log(obj)
 
+    const data= [];
+    for (let i=0; i<obj["symptoms"].length; ++i){
+        data.push({
+            value: i,
+            text: obj["symptoms"][i]
+        })
+    }
+    console.log()
     let dlb = new DualListbox(".dlb", {
         availableTitle: "Suggested Symptoms",
         selectedTitle: "Selected Symptoms",
@@ -16,6 +19,7 @@ async function main() {
         addAllButtonText: ">>",
         removeAllButtonText: "<<",
         searchPlaceholder: "Search Symptoms",
+        options: data
       });
       dlb.addEventListener("added", function (event) {
         console.log(event);
@@ -23,9 +27,6 @@ async function main() {
       dlb.addEventListener("removed", function (event) {
         console.log(event);
       });
-    // const filePath = path.resolve(__dirname, 'fake_data.json');
-    // const data = await fs.promises.readFile(filePath, 'utf8');
-    // const obj = JSON.parse(data);
 
     // // poking the schedules route for the json data
     // const res = await fetch('https://usis-cdn.eniamza.com/usisdump.json');
