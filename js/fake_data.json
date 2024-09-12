@@ -1,0 +1,35 @@
+{
+  "symptoms" : 
+  [
+    "Fever",
+    "Cough",
+    "Sneezing",
+    "Sore throat",
+    "Fatigue",
+    "Headache",
+    "Muscle aches",
+    "Joint pain",
+    "Loss of appetite",
+    "Nausea and vomiting",
+    "Diarrhea",
+    "Shortness of breath",
+    "Chest pain",
+    "Skin rash",
+    "Swelling",
+    "Weight loss",
+    "Changes in bowel habits",
+    "Changes in urination",
+    "Abnormal bleeding",
+    "Dizziness or lightheadedness",
+    "Confusion",
+    "Numbness or tingling",
+    "Vision changes",
+    "Hearing changes",
+    "Difficulty speaking or understanding",
+    "Night sweats",
+    "Yellowing of the skin or eyes",
+    "Swollen lymph nodes",
+    "Changes in skin texture",
+    "Hoarseness"
+  ]
+}
