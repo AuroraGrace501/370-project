@@ -61,15 +61,20 @@ document.addEventListener('DOMContentLoaded', function() {
 //   // Add your logic here
 // }
 
-  function button_changer(element) {
-    // Remove 'active' class from all containers
-    document.querySelectorAll('.button-container').forEach(container => {
-        container.classList.remove('active');
-    });
-    
-    // Add 'active' class to the clicked container
-    element.classList.add('active');
-  }
+const button_changer = (data = button_container1) => {
+  let button_toInactive = document.getElementById(active);
+  button_toInactive.innerHTML = `
+    <button class="btn btn-sm btn-outline rounded-md bg-third_clr text-black normal-case">${button_toInactive.innerText}</button>
+    `;
+
+  active = data.id;
+  const name = data.innerText;
+  data.innerHTML = `
+    <button class="btn btn-sm btn-outline rounded-md bg-primary_clr text-white normal-case">${name}</button>
+  `;
+  add_first(name);
+};
+
     
 }
 
