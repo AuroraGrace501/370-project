@@ -18,34 +18,54 @@
 
   <body>
     <nav class="navbar">
-      <div class="logo">MySite</div>
+      <div class="logo titlehead">Health Ease</div>
       <ul class="nav-links">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="department.html" class="active">Department</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="department.html" class="active">Department</a></li>
       </ul>
       <div class="menu-toggle" id="menu-toggle">
-          &#9776; <!-- This is a hamburger icon -->
+        &#9776;
+        <!-- This is a hamburger icon -->
       </div>
-  </nav>
+    </nav>
 
-        <div class="button-group">
-            <div id="button_container1" class="button-container" onclick="button_changer(this)">
-                <button class="btn">All</button>
-            </div>
-    
-            <div id="button_container2" class="button-container" onclick="button_changer(this)">
-                <button class="btn">Cardiology</button>
-            </div>
-    
-            <div id="button_container3" class="button-container" onclick="button_changer(this)">
-                <button class="btn">Emergency</button>
-            </div>
-    
-            <div id="button_container4" class="button-container" onclick="button_changer(this)">
-                <button class="btn">Medicine</button>
-            </div>
-            
-        </div>
+    <div class="button-group">
+      <div class="button-container">
+        <div id="main-button"></div>
+      </div>
+    </div>
+
+    <!-- <div
+        id="button_container1"
+        class="button-container"
+        onclick="button_changer(this)"
+      >
+        <button class="btn">All</button>
+      </div>
+
+      <div
+        id="button_container2"
+        class="button-container"
+        onclick="button_changer(this)"
+      >
+        <button class="btn">Cardiology</button>
+      </div>
+
+      <div
+        id="button_container3"
+        class="button-container"
+        onclick="button_changer(this)"
+      >
+        <button class="btn">Emergency</button>
+      </div> -->
+
+    <!-- <div
+        id="button_container4"
+        class="button-container"
+        onclick="button_changer(this)"
+      >
+        <button class="btn">Medicine</button>
+      </div> -->
 
     <footer>
       "And why should you not spend in the cause of Allah, while Allah is the
@@ -57,6 +77,6 @@
     </footer>
 
     <!-- scripts for frontend are defined here -->
-    <script src="./js/department_function.js"></script>    
+    <script src="./js/department.js"></script>
   </body>
 </html>

@@ -1,5 +1,12 @@
 [
-    { "label": "Music" },
-    { "label": "Comedy" },
-    { "label": "Drawing" }
+  "All",
+  "Gynaecology",
+  "Emergency medicine",
+  "Gastroenterology",
+  "Neurology",
+  "Paediatrics",
+  "Orthopedics",
+  "Dentistry",
+  "Dermatology",
+  "Nephrology"
 ]

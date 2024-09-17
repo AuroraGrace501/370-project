@@ -1,327 +1,319 @@
-@import url('https://fonts.googleapis.com/css2?family=Fanwood+Text&family=Roboto:wght@100;400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Fanwood+Text&family=Roboto:wght@100;400&display=swap");
 
 body {
-    font-family: 'Roboto', sans-serif;    
-    background-color: rgb(65, 163, 255);
-    margin: 0;
+  font-family: "Roboto", sans-serif;
+  background-color: rgb(65, 163, 255);
+  margin: 0;
 }
 
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #333;
-    padding: 10px 20px;
-    color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 10px 20px;
+  color: white;
 }
 
 .logo {
-    font-size: 24px;
+  font-size: 24px;
 }
 
 .nav-links {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
 }
 
 .nav-links li {
-    margin: 0 15px;
+  margin: 0 15px;
 }
 
 .nav-links a {
-    color: white;
-    text-decoration: none;
-    font-size: 18px;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
 }
 
 .nav-links a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .nav-links .active {
-    font-weight: bold; 
-    border-bottom: 2px solid red; 
+  font-weight: bold;
+  border-bottom: 2px solid red;
 }
 
 .menu-toggle {
-    display: none;
-    font-size: 24px;
-    cursor: pointer;
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
 }
 
 /* General Container */
 .button-group {
-    margin: 2rem 0; /* Equivalent to Tailwind's my-8 */
-    display: flex;
-    flex-direction: row;
-    gap: 1rem; /* Equivalent to Tailwind's gap-4 */
-    justify-content: center;
+  margin: 2rem 0; /* Equivalent to Tailwind's my-8 */
+  display: flex;
+  flex-direction: row;
+  gap: 1rem; /* Equivalent to Tailwind's gap-4 */
+  justify-content: center;
 }
 
 .button-container-wrapper {
-    display: flex;
-    gap: 1rem; /* Space between buttons */
-    justify-content: center;
-    margin: 2rem 0;
+  display: flex;
+  gap: 1rem; /* Space between buttons */
+  justify-content: center;
+  margin: 2rem 0;
 }
 
 /* Button Container */
 .button-container {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 /* Button Styles */
 .btn {
-    font-size: 0.875rem; /* Equivalent to Tailwind's text-sm */
-    border: 1px solid #ddd; /* Equivalent to Tailwind's btn-outline */
-    border-radius: 0.375rem; /* Equivalent to Tailwind's rounded-md */
-    background-color: #f0f0f0; /* Equivalent to Tailwind's bg-third_clr */
-    color: black;
-    padding: 0.5rem 1rem; /* Padding to make button look similar */
-    text-transform: none; /* Equivalent to Tailwind's normal-case */
-    cursor: pointer;
-    transition: background-color 0.3s, border-color 0.3s;
+  font-size: 0.875rem; /* Equivalent to Tailwind's text-sm */
+  border: 1px solid #ddd; /* Equivalent to Tailwind's btn-outline */
+  border-radius: 0.375rem; /* Equivalent to Tailwind's rounded-md */
+  background-color: #f0f0f0; /* Equivalent to Tailwind's bg-third_clr */
+  color: black;
+  padding: 0.5rem 1rem; /* Padding to make button look similar */
+  text-transform: none; /* Equivalent to Tailwind's normal-case */
+  cursor: pointer;
+  transition: background-color 0.3s, border-color 0.3s;
 }
 
 .btn:hover {
-    background-color: #e0e0e0; /* Slightly darker background on hover */
+  background-color: #02999e; /* Slightly darker background on hover */
 }
 
 footer {
-    background-color:rgb(25, 53, 113);
-    color: white;
-    text-align:center;
-    padding: 20px;
-    font-size: 20px;
-    margin: 0;
+  background-color: rgb(25, 53, 113);
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 20px;
+  margin: 0;
 }
 
 body > footer > a {
-
-    color: cyan;
+  color: cyan;
 }
 
-
 .heading {
-    font-family: 'Fanwood Text', serif;
-    padding: 5px;
-    text-align: center;
-    line-height: 5pt;
-    color: white
+  font-family: "Fanwood Text", serif;
+  padding: 5px;
+  text-align: center;
+  line-height: 5pt;
+  color: white;
 }
 
 .titlehead {
-    color: rgb(2, 3, 72);
-    padding-bottom: 2px;
+  color: rgb(2, 3, 72);
+  padding-bottom: 2px;
 }
 
 .icons {
-    display: flex; 
-    justify-content: center; 
-    align-items: center; 
-    margin-top: 0px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0px;
 }
 
 .icon {
-    fill: white; /* Initial color of icons */
-    transition: fill 0.3s ease; /* Smooth transition for color change */
-    margin: 0 3px; /* Spacing between icons */
+  fill: white; /* Initial color of icons */
+  transition: fill 0.3s ease; /* Smooth transition for color change */
+  margin: 0 3px; /* Spacing between icons */
 }
 
 .icon:hover {
-    fill: cyan; /* Color change on hover */
+  fill: cyan; /* Color change on hover */
 }
 
-
-
 .allButFooter {
-    min-height: calc(100vh - 40px);
-    margin: 20px;
+  min-height: calc(100vh - 40px);
+  margin: 20px;
 }
 
 .container {
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    color: rgba(0, 0, 0, 0.259);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.259);
 }
-
-
 
 .dual-listbox {
-    background-color: rgb(78, 86, 174);
+  background-color: rgb(78, 86, 174);
 }
 
-.dual-listbox__available, .dual-listbox__selected {
-    background-color: rgb(38, 4, 83)!important;
-    border-width: 0.1mm !important;
-    border-color: cyan !important;
-    color: white;
+.dual-listbox__available,
+.dual-listbox__selected {
+  background-color: rgb(38, 4, 83) !important;
+  border-width: 0.1mm !important;
+  border-color: cyan !important;
+  color: white;
 }
 
-
-.routine-table th, .routine-table td, .routine-table tr {
-    color: white;
+.routine-table th,
+.routine-table td,
+.routine-table tr {
+  color: white;
 }
-
-
 
 .left {
-    /* background-color: brown; */
-    width:20vw;
+  /* background-color: brown; */
+  width: 20vw;
 }
 
 .center {
-     /* background-color: yellow; */
-     width:60vw;
+  /* background-color: yellow; */
+  width: 60vw;
 }
 
 .right {
-     /* background-color: orange; */
-     width:20vw;
+  /* background-color: orange; */
+  width: 20vw;
 }
 
 .warning {
-     font-size: 20px;
-     /*
+  font-size: 20px;
+  /*
      background-color: skyblue;
      */
-     color: red;
-     padding: 20px;
+  color: red;
+  padding: 20px;
 }
 
 .examWarning {
-     font-size: 20px;
-     /*
+  font-size: 20px;
+  /*
      background-color: skyblue;
      */
-     color: royalblue;
-     padding: 20px;
+  color: royalblue;
+  padding: 20px;
 }
 
 .routine-table {
-     margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 table {
-    width: 90%;
-    text-align: center;
-    border-collapse: collapse;
+  width: 90%;
+  text-align: center;
+  border-collapse: collapse;
 }
 
 #downloadTable {
-    background-color: cyan;
-    width: 20%;
-    margin-left: 40%;
-    margin-right: 40%;
-    padding: 10px;
-    margin-top: 20px;
-    border: 0;
+  background-color: cyan;
+  width: 20%;
+  margin-left: 40%;
+  margin-right: 40%;
+  padding: 10px;
+  margin-top: 20px;
+  border: 0;
 }
 
 #downloadTable:hover {
-    background-color: #ddd;
+  background-color: #ddd;
 }
-
 
 /* for the corner */
 
 .github-corner:hover .octo-arm {
-    animation: octocat-wave 560ms ease-in-out;
+  animation: octocat-wave 560ms ease-in-out;
 }
 
 @keyframes octocat-wave {
-    0% {
-        transform: rotate(0deg);
-    }
+  0% {
+    transform: rotate(0deg);
+  }
 
-    20% {
-        transform: rotate(-25deg);
-    }
+  20% {
+    transform: rotate(-25deg);
+  }
 
-    40% {
-        transform: rotate(10deg);
-    }
+  40% {
+    transform: rotate(10deg);
+  }
 
-    60% {
-        transform: rotate(-25deg);
-    }
+  60% {
+    transform: rotate(-25deg);
+  }
 
-    80% {
-        transform: rotate(10deg);
-    }
+  80% {
+    transform: rotate(10deg);
+  }
 
-    100% {
-        transform: rotate(0deg);
-    }
+  100% {
+    transform: rotate(0deg);
+  }
 }
 
 @media only screen and (max-width: 600px) {
+  .routine-table {
+    display: block;
+    margin: auto;
+    width: 300px;
+    overflow-x: auto;
+  }
 
-    .routine-table {
-        display: block;
-        margin: auto;
-        width: 300px;
-        overflow-x: auto;
-    }
+  th,
+  td {
+    font-size: 10px;
+  }
 
-    th, td {
-        font-size: 10px;
-    }
+  footer {
+    font-size: small;
+  }
 
-    footer {
-        font-size: small;
-    }
+  .heading > h5 {
+    font-size: 10px;
+  }
 
-    .heading > h5 {
-        font-size: 10px;
-    }
+  .heading > h1 {
+    font-size: 20px;
+  }
 
-    .heading > h1 {
-        font-size: 20px;
-    }
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+  }
 
-    .container {
-        display: flex;
-        flex-wrap: wrap;
-    }
+  .center {
+    order: 0;
+    width: 500px;
+  }
 
-    .center {
-        order: 0;
-        width: 500px;
+  .left {
+    order: 1;
+    font-size: 10px;
+    width: 150px;
+  }
 
-    }
+  .right {
+    order: 2;
+    font-size: 10px;
+    width: 150px;
+  }
 
-    .left {
-        order: 1;
-        font-size: 10px;
-        width: 150px;
-    }
+  #downloadTable {
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 12px;
+    font-weight: 400;
+  }
 
-    .right {
-        order: 2;
-        font-size: 10px;
-        width: 150px;
-    }
-
-    #downloadTable {
-        width: 50%;
-        margin-left: 25%;
-        margin-right: 25%;
-        padding: 10px;
-        margin-top: 20px;
-        font-size: 12px;
-        font-weight: 400;
-    }
-
-    .warning {
-        font-size: 10px;
-        /*
+  .warning {
+    font-size: 10px;
+    /*
         background-color: skyblue;
         */
-        color: red;
-        padding: 20px;
-    }
+    color: red;
+    padding: 20px;
+  }
 }
