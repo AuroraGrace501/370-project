@@ -8,7 +8,7 @@ const loadData = async () => {
   data.forEach((item) => {
     const new_button = `
     <div class= "button-container"> 
-      <button class="btn">${item}</button>
+      <button class="department-btn">${item}</button>
     </div>
     `;
     container.innerHTML += new_button;
