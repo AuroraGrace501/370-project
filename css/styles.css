@@ -51,7 +51,8 @@ body {
   cursor: pointer;
 }
 
-#button-group {
+#button-group,
+#doctor-info {
   margin: 2rem 0;
   display: flex;
   flex-direction: row;
@@ -319,9 +320,9 @@ table {
   text-align: center;
   border-radius: 5px;
   overflow: hidden;
-  margin: 5em auto;
-  height: 350px;
-  width: 700px;
+  /* margin: 5em auto; */
+  height: 250px;
+  width: 500px;
   display: flex;
   flex-direction: row;
 }
@@ -336,16 +337,16 @@ table {
   width: 40%;
 }
 
-#container .product-details h1 {
+#container .product-details h4 {
   font-family: "Bebas Neue", cursive;
   display: inline-block;
   position: relative;
-  font-size: 30px;
+  font-size: 20px;
   color: #344055;
   margin: 0;
 }
 
-#container .product-details h1:before {
+#container .product-details h4:before {
   position: absolute;
   content: "";
   right: 0%;
@@ -353,7 +354,6 @@ table {
   transform: translate(25px, -15px);
   font-family: "Bree Serif", serif;
   display: inline-block;
-  background: #ffe6e6;
   border-radius: 5px;
   font-size: 14px;
   padding: 5px;
@@ -369,12 +369,6 @@ table {
   width: 50%;
 }
 
-#container .product-details > p {
-  font-family: "EB Garamond", serif;
-  text-align: center;
-  font-size: 18px;
-  color: #7d7d7d;
-}
 .control {
   position: absolute;
   bottom: 20%;
@@ -405,9 +399,10 @@ table {
   transition: transform 0.3s;
   display: inline-block;
   padding: 10px 20px;
-  font-size: 1.2em;
+  font-size: 0.8em;
   margin: 0;
 }
+
 .btn .price,
 .shopping-cart {
   background: #333;
@@ -459,20 +454,11 @@ table {
 }
 
 .info {
-  background: rgba(27, 26, 26, 0.9);
   font-family: "Bree Serif", serif;
-  transition: all 0.3s ease-out;
-  transform: translateX(-100%);
-  position: absolute;
   line-height: 1.8;
   text-align: left;
-  font-size: 105%;
+  font-size: 80%;
   cursor: no-drop;
-  color: #fff;
-  height: 100%;
-  width: 100%;
-  left: 0;
-  top: 0;
 }
 
 .info h2 {
@@ -494,4 +480,19 @@ table {
 }
 .product-image:hover img {
   transform: scale(1.2, 1.2);
+}
+
+/* #doctor-info {
+  margin: 2rem 0;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  justify-content: center;
+  padding: 0rem 1rem;
+  flex-wrap: wrap;
+} */
+
+.active-btn {
+  background-color: rgb(249, 0, 25);
+  color: #f0f0f0;
 }

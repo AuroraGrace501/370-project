@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Dr. John Smith",
+    "specialization": "Cardiology",
+    "rating": 4.8,
+    "phoneNo": "+1-555-1234",
+    "fee": 150,
+    "location": "123 Heart Ave, New York, NY",
+    "image": "url_to_image_of_dr_john_smith.jpg",
+    "availability": "Mon-Fri 9am-5pm"
+  },
+  {
+    "name": "Dr. Sarah Johnson",
+    "specialization": "Dermatology",
+    "rating": 4.5,
+    "phoneNo": "+1-555-5678",
+    "fee": 100,
+    "location": "456 Skin St, Los Angeles, CA",
+    "image": "url_to_image_of_dr_sarah_johnson.jpg",
+    "availability": "Tue-Sat 10am-6pm"
+  },
+  {
+    "name": "Dr. Mark Lee",
+    "specialization": "Neurology",
+    "rating": 4.9,
+    "phoneNo": "+1-555-8765",
+    "fee": 200,
+    "location": "789 Brain Rd, Chicago, IL",
+    "image": "url_to_image_of_dr_mark_lee.jpg",
+    "availability": "Mon-Fri 8am-4pm"
+  },
+  {
+    "name": "Dr. Emily Davis",
+    "specialization": "Pediatrics",
+    "rating": 4.7,
+    "phoneNo": "+1-555-4321",
+    "fee": 120,
+    "location": "321 Kids Ln, Miami, FL",
+    "image": "url_to_image_of_dr_emily_davis.jpg",
+    "availability": "Mon-Fri 9am-3pm"
+  },
+  {
+    "name": "Dr. Richard Wilson",
+    "specialization": "Orthopedics",
+    "rating": 4.6,
+    "phoneNo": "+1-555-9876",
+    "fee": 130,
+    "location": "987 Bone Blvd, Seattle, WA",
+    "image": "url_to_image_of_dr_richard_wilson.jpg",
+    "availability": "Mon-Fri 10am-5pm"
+  }
+]
