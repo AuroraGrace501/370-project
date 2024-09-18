@@ -2,51 +2,211 @@
   {
     "name": "Dr. John Smith",
     "specialization": "Cardiology",
-    "rating": 4.8,
-    "phoneNo": "+1-555-1234",
+    "rating": 4.5,
+    "phone": "+1-555-1234",
     "fee": 150,
     "location": "123 Heart Ave, New York, NY",
-    "image": "url_to_image_of_dr_john_smith.jpg",
+    "image": "https://i.ibb.co/Tm6YBKX/doctor.png",
     "availability": "Mon-Fri 9am-5pm"
   },
   {
     "name": "Dr. Sarah Johnson",
-    "specialization": "Dermatology",
+    "specialization": "Dentistry",
     "rating": 4.5,
-    "phoneNo": "+1-555-5678",
+    "phone": "+1-555-5678",
     "fee": 100,
     "location": "456 Skin St, Los Angeles, CA",
-    "image": "url_to_image_of_dr_sarah_johnson.jpg",
+    "image": "https://i.ibb.co/Tm6YBKX/doctor.png",
     "availability": "Tue-Sat 10am-6pm"
   },
   {
     "name": "Dr. Mark Lee",
     "specialization": "Neurology",
-    "rating": 4.9,
-    "phoneNo": "+1-555-8765",
+    "rating": 5,
+    "phone": "+1-555-8765",
     "fee": 200,
     "location": "789 Brain Rd, Chicago, IL",
-    "image": "url_to_image_of_dr_mark_lee.jpg",
+    "image": "https://i.ibb.co/Tm6YBKX/doctor.png",
     "availability": "Mon-Fri 8am-4pm"
   },
   {
     "name": "Dr. Emily Davis",
-    "specialization": "Pediatrics",
-    "rating": 4.7,
-    "phoneNo": "+1-555-4321",
+    "specialization": "Gynaecology",
+    "rating": 3,
+    "phone": "+1-555-4321",
     "fee": 120,
     "location": "321 Kids Ln, Miami, FL",
-    "image": "url_to_image_of_dr_emily_davis.jpg",
+    "image": "https://i.ibb.co/Tm6YBKX/doctor.png",
     "availability": "Mon-Fri 9am-3pm"
   },
   {
     "name": "Dr. Richard Wilson",
     "specialization": "Orthopedics",
-    "rating": 4.6,
-    "phoneNo": "+1-555-9876",
+    "rating": 3.5,
+    "phone": "+1-555-9876",
     "fee": 130,
     "location": "987 Bone Blvd, Seattle, WA",
-    "image": "url_to_image_of_dr_richard_wilson.jpg",
+    "image": "https://i.ibb.co/Tm6YBKX/doctor.png",
     "availability": "Mon-Fri 10am-5pm"
+  },
+  {
+    "name": "Dr. Lisa Green",
+    "specialization": "Nephrology",
+    "rating": 4,
+    "phone": "+1-555-3456",
+    "fee": 140,
+    "location": "654 Digestive Dr, Boston, MA",
+    "image": "https://i.ibb.co/Tm6YBKX/doctor.png",
+    "availability": "Mon-Thu 8am-4pm"
+  },
+  {
+    "name": "Dr. Brian Adams",
+    "specialization": "Emergency Medicine",
+    "rating": 5,
+    "phone": "+1-555-2345",
+    "fee": 220,
+    "location": "789 Cancer Cr, Philadelphia, PA",
+    "image": "https://i.ibb.co/Tm6YBKX/doctor.png",
+    "availability": "Mon-Fri 9am-6pm"
+  },
+  {
+    "name": "Dr. Julia Roberts",
+    "specialization": "Cardiology",
+    "rating": 3.5,
+    "phone": "+1-555-6789",
+    "fee": 160,
+    "location": "123 Hormone Hwy, San Francisco, CA",
+    "image": "https://i.ibb.co/Tm6YBKX/doctor.png",
+    "availability": "Tue-Sat 10am-5pm"
+  },
+  {
+    "name": "Dr. Kevin Brown",
+    "specialization": "Orthopedics",
+    "rating": 4,
+    "phone": "+1-555-3457",
+    "fee": 180,
+    "location": "321 Joint Ln, Denver, CO",
+    "image": "https://i.ibb.co/Tm6YBKX/doctor.png",
+    "availability": "Mon-Fri 9am-4pm"
+  },
+  {
+    "name": "Dr. Megan Clark",
+    "specialization": "Dentistry",
+    "rating": 3.5,
+    "phone": "+1-555-4567",
+    "fee": 150,
+    "location": "654 Kidney Blvd, Atlanta, GA",
+    "image": "https://i.ibb.co/Tm6YBKX/doctor.png",
+    "availability": "Mon-Thu 8am-3pm"
+  },
+  {
+    "name": "Dr. Thomas Harris",
+    "specialization": "Emergency Medicine",
+    "rating": 4.5,
+    "phone": "+1-555-5679",
+    "fee": 170,
+    "location": "987 Lung St, Dallas, TX",
+    "image": "https://i.ibb.co/Tm6YBKX/doctor.png",
+    "availability": "Mon-Fri 10am-6pm"
+  },
+  {
+    "name": "Dr. Angela Martinez",
+    "specialization": "Gynaecology",
+    "rating": 5,
+    "phone": "+1-555-6780",
+    "fee": 190,
+    "location": "123 Blood Blvd, Houston, TX",
+    "image": "https://i.ibb.co/Tm6YBKX/doctor.png",
+    "availability": "Tue-Sat 9am-5pm"
+  },
+  {
+    "name": "Dr. John Wright",
+    "specialization": "Nephrology",
+    "rating": 5,
+    "phone": "+1-555-7890",
+    "fee": 200,
+    "location": "456 Vision Ave, San Diego, CA",
+    "image": "https://i.ibb.co/Tm6YBKX/doctor.png",
+    "availability": "Mon-Fri 9am-4pm"
+  },
+  {
+    "name": "Dr. Laura Scott",
+    "specialization": "Dentistry",
+    "rating": 4,
+    "phone": "+1-555-8901",
+    "fee": 130,
+    "location": "789 Allergy Rd, Seattle, WA",
+    "image": "https://i.ibb.co/Tm6YBKX/doctor.png",
+    "availability": "Mon-Thu 10am-6pm"
+  },
+  {
+    "name": "Dr. Robert Lewis",
+    "specialization": "Cardiology",
+    "rating": 5,
+    "phone": "+1-555-9012",
+    "fee": 140,
+    "location": "654 Senior St, Austin, TX",
+    "image": "https://i.ibb.co/Tm6YBKX/doctor.png",
+    "availability": "Tue-Sat 8am-4pm"
+  },
+  {
+    "name": "Dr. Maria Lopez",
+    "specialization": "Emergency Medicine",
+    "rating": 3.5,
+    "phone": "+1-555-0123",
+    "fee": 160,
+    "location": "321 Mind Ave, Orlando, FL",
+    "image": "https://i.ibb.co/Tm6YBKX/doctor.png",
+    "availability": "Mon-Fri 9am-5pm"
+  },
+  {
+    "name": "Dr. William King",
+    "specialization": "Orthopedics",
+    "rating": 3,
+    "phone": "+1-555-1235",
+    "fee": 180,
+    "location": "456 Urology Ln, Phoenix, AZ",
+    "image": "https://i.ibb.co/Tm6YBKX/doctor.png",
+    "availability": "Mon-Fri 10am-6pm"
+  },
+  {
+    "name": "Dr. Elizabeth Green",
+    "specialization": "Gynaecology",
+    "rating": 5,
+    "phone": "+1-555-2346",
+    "fee": 190,
+    "location": "789 Women St, Nashville, TN",
+    "image": "https://i.ibb.co/Tm6YBKX/doctor.png",
+    "availability": "Tue-Sat 9am-4pm"
+  },
+  {
+    "name": "Dr. Jason Hill",
+    "specialization": "Emergency Medicine",
+    "rating": 2.5,
+    "phone": "+1-555-3458",
+    "fee": 200,
+    "location": "123 Emergency Ave, San Jose, CA",
+    "image": "https://i.ibb.co/Tm6YBKX/doctor.png",
+    "availability": "24/7"
+  },
+  {
+    "name": "Dr. Emily Wilson",
+    "specialization": "Orthopedics",
+    "rating": 5,
+    "phone": "+1-555-4568",
+    "fee": 250,
+    "location": "456 Beauty Blvd, Portland, OR",
+    "image": "https://i.ibb.co/Tm6YBKX/doctor.png",
+    "availability": "Mon-Fri 10am-5pm"
+  },
+  {
+    "name": "Dr. Daniel Clark",
+    "specialization": "Nephrology",
+    "rating": 4,
+    "phone": "+1-555-5670",
+    "fee": 140,
+    "location": "789 Health Rd, Minneapolis, MN",
+    "image": "https://i.ibb.co/Tm6YBKX/doctor.png",
+    "availability": "Mon-Thu 9am-4pm"
   }
 ]

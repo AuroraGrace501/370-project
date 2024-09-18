@@ -6,6 +6,10 @@ body {
   margin: 0rem;
 }
 
+main {
+  min-height: 80vh;
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -321,13 +325,13 @@ table {
   border-radius: 5px;
   overflow: hidden;
   /* margin: 5em auto; */
-  height: 250px;
+  height: 300px;
   width: 500px;
   display: flex;
   flex-direction: row;
 }
 
-.product-details {
+.doctor-details {
   position: relative;
   text-align: left;
   overflow: hidden;
@@ -337,7 +341,7 @@ table {
   width: 40%;
 }
 
-#container .product-details h4 {
+#container .doctor-details h4 {
   font-family: "Bebas Neue", cursive;
   display: inline-block;
   position: relative;
@@ -346,7 +350,7 @@ table {
   margin: 0;
 }
 
-#container .product-details h4:before {
+#container .doctor-details h4:before {
   position: absolute;
   content: "";
   right: 0%;
@@ -437,7 +441,7 @@ table {
   transform: translateX(0%);
 }
 
-.product-image {
+.doctor-image {
   transition: all 0.3s ease-out;
   display: inline-block;
   position: relative;
@@ -464,7 +468,7 @@ table {
 .info h2 {
   text-align: center;
 }
-.product-image:hover .info {
+.doctor-image:hover .info {
   transform: translateX(0);
 }
 
@@ -475,10 +479,10 @@ table {
   transform: translateX(50px) scale(1.3);
 }
 
-.product-image:hover img {
+.doctor-image:hover img {
   transition: all 0.3s ease-out;
 }
-.product-image:hover img {
+.doctor-image:hover img {
   transform: scale(1.2, 1.2);
 }
 
