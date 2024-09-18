@@ -29,28 +29,13 @@ const button_changer = (data) => {
   department_doctor(text);
 };
 
-function make_star() {
-  const p = document.createElement("p");
-  p.textContent = `Rating: ${rating}`;
-  return p;
-}
-
 const department_doctor = async (department = "All") => {
-  console.log(department);
+  // console.log(department);
   const response = await fetch("fake_doctor.json");
   const data = await response.json();
   const container = document.getElementById("doctor-info");
   container.innerHTML = "";
   data.forEach((item, id) => {
-    console.log(
-      department,
-      item.specialization,
-      department == item.specialization,
-      typeof department,
-      typeof item.specialization,
-      department.length,
-      item.specialization.length
-    );
     if (department == "All" || department == item.specialization) {
       const doctor_card = `
       <div id="container">
@@ -105,6 +90,15 @@ const department_doctor = async (department = "All") => {
       }
     }
   });
+  if (container.innerHTML == "") {
+    let div = document.createElement("div");
+    div.className = "no_doc";
+    div.innerHTML = `
+    <img class="no_doc_image" src="https://i.ibb.co.com/MZTdYwK/images.jpg" alt="Icon">
+    <h1 class="heading">Sorry, no doctors are available here</h1>
+    `;
+    container.appendChild(div);
+  }
 };
 
 load_button();
