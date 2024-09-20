@@ -19,17 +19,8 @@ main {
   color: white;
 }
 
-.logo {
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  object-fit: cover;
-}
-
 .nav-links {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
   display: flex;
 }
 
@@ -50,6 +41,21 @@ main {
 .nav-links .active {
   font-weight: bold;
   border-bottom: 2px solid red;
+}
+
+.logo {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.heading {
+  font-family: "Fanwood Text", serif;
+  text-align: center;
+  line-height: 5pt;
+  color: rgb(2, 3, 72);
+  padding: 30px;
 }
 
 .menu-toggle {
@@ -97,31 +103,6 @@ footer > a {
   color: cyan;
 }
 
-.heading {
-  font-family: "Fanwood Text", serif;
-  text-align: center;
-  line-height: 5pt;
-  color: rgb(2, 3, 72);
-  padding: 30px;
-}
-
-.icons {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 0px;
-}
-
-.icon {
-  fill: white;
-  transition: fill 0.3s ease;
-  margin: 0 3px;
-}
-
-.icon:hover {
-  fill: cyan; /* Color change on hover */
-}
-
 .container {
   display: flex;
   justify-content: center;
@@ -140,157 +121,6 @@ footer > a {
   border-color: cyan !important;
   color: white;
 }
-
-.left {
-  /* background-color: brown; */
-  width: 20vw;
-}
-
-.center {
-  /* background-color: yellow; */
-  width: 60vw;
-}
-
-.right {
-  /* background-color: orange; */
-  width: 20vw;
-}
-
-.warning {
-  font-size: 20px;
-  /*
-     background-color: skyblue;
-     */
-  color: red;
-  padding: 20px;
-}
-
-.examWarning {
-  font-size: 20px;
-  /*
-     background-color: skyblue;
-     */
-  color: royalblue;
-  padding: 20px;
-}
-
-.routine-table {
-  margin-bottom: 20px;
-}
-
-table {
-  width: 90%;
-  text-align: center;
-  border-collapse: collapse;
-}
-
-#downloadTable {
-  background-color: cyan;
-  width: 20%;
-  margin-left: 40%;
-  margin-right: 40%;
-  padding: 10px;
-  margin-top: 20px;
-  border: 0;
-}
-
-#downloadTable:hover {
-  background-color: #ddd;
-}
-
-/* for the corner */
-
-.github-corner:hover .octo-arm {
-  animation: octocat-wave 560ms ease-in-out;
-}
-
-@keyframes octocat-wave {
-  0% {
-    transform: rotate(0deg);
-  }
-
-  20% {
-    transform: rotate(-25deg);
-  }
-
-  40% {
-    transform: rotate(10deg);
-  }
-
-  60% {
-    transform: rotate(-25deg);
-  }
-
-  80% {
-    transform: rotate(10deg);
-  }
-
-  100% {
-    transform: rotate(0deg);
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  .routine-table {
-    display: block;
-    margin: auto;
-    width: 300px;
-    overflow-x: auto;
-  }
-
-  th,
-  td {
-    font-size: 10px;
-  }
-
-  .container {
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-  .center {
-    order: 0;
-    width: 500px;
-  }
-
-  .left {
-    order: 1;
-    font-size: 10px;
-    width: 150px;
-  }
-
-  .right {
-    order: 2;
-    font-size: 10px;
-    width: 150px;
-  }
-
-  #downloadTable {
-    width: 50%;
-    margin-left: 25%;
-    margin-right: 25%;
-    padding: 10px;
-    margin-top: 20px;
-    font-size: 12px;
-    font-weight: 400;
-  }
-
-  .warning {
-    font-size: 10px;
-    /*
-        background-color: skyblue;
-        */
-    color: red;
-    padding: 20px;
-  }
-}
-
-/* body {
-  background: #dfc2f2;
-  background-image: linear-gradient(to right, #ffffb3, #ffe6e6);
-  background-attachment: fixed;
-  background-size: cover;
-} */
 
 #container {
   box-shadow: 0 15px 30px 1px grey;
