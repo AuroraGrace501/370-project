@@ -7,7 +7,7 @@ body {
 }
 
 main {
-  min-height: 80vh;
+  min-height: 90vh;
 }
 
 .navbar {
@@ -20,7 +20,10 @@ main {
 }
 
 .logo {
-  font-size: 24px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
 .nav-links {
@@ -79,7 +82,7 @@ main {
 }
 
 .department-btn:hover {
-  background-color: #02999e; /* Slightly darker background on hover */
+  background-color: #02999e;
 }
 
 footer {
@@ -97,15 +100,10 @@ body > footer > a {
 
 .heading {
   font-family: "Fanwood Text", serif;
-  padding: 5px;
   text-align: center;
   line-height: 5pt;
-  color: white;
-}
-
-.titlehead {
   color: rgb(2, 3, 72);
-  padding-bottom: 2px;
+  padding: 30px;
 }
 
 .icons {
@@ -116,18 +114,13 @@ body > footer > a {
 }
 
 .icon {
-  fill: white; /* Initial color of icons */
-  transition: fill 0.3s ease; /* Smooth transition for color change */
-  margin: 0 3px; /* Spacing between icons */
+  fill: white;
+  transition: fill 0.3s ease;
+  margin: 0 3px;
 }
 
 .icon:hover {
   fill: cyan; /* Color change on hover */
-}
-
-.allButFooter {
-  min-height: calc(100vh - 40px);
-  margin: 20px;
 }
 
 .container {
@@ -146,12 +139,6 @@ body > footer > a {
   background-color: rgb(38, 4, 83) !important;
   border-width: 0.1mm !important;
   border-color: cyan !important;
-  color: white;
-}
-
-.routine-table th,
-.routine-table td,
-.routine-table tr {
   color: white;
 }
 
@@ -259,14 +246,6 @@ table {
 
   footer {
     font-size: small;
-  }
-
-  .heading > h5 {
-    font-size: 10px;
-  }
-
-  .heading > h1 {
-    font-size: 20px;
   }
 
   .container {
