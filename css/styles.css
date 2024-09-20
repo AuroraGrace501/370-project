@@ -7,7 +7,7 @@ body {
 }
 
 main {
-  min-height: 90vh;
+  min-height: 80vh;
 }
 
 .navbar {
@@ -238,7 +238,7 @@ footer > a {
 
   .dual-listbox__search {
     border-radius: 5px;
-    min-width: 50%;
+    width: 50%;
     background-color: rgb(51 65 85);
     color: white;
   }
